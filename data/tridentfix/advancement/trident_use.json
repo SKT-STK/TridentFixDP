@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "item": {
+          "items": "minecraft:trident"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "tridentfix:throw/self"
+  }
+}

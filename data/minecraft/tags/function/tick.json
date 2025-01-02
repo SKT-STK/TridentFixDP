@@ -1,5 +1,6 @@
 {
   "values": [
-    "tridentfix:return"
+    "tridentfix:return",
+    "tridentfix:pick_up/tick"
   ]
 }

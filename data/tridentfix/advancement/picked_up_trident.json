@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "main": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "items": [
+          {
+            "items": "minecraft:trident",
+            "components": {
+              "minecraft:custom_data": {
+                "tridentfix.trident": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tridentfix:pick_up/self"
+  }
+}
